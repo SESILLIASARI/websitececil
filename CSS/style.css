@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+        flex-wrap: wrap;
+}
+.halaman-utama {
+    height: 100vh;
+    background-color: #4a6ff2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.nav-kiri {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: #4a6ff2;
+    border-radius: 50%;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: 0.5s;
+}
+li a:hover {
+    color: #4a6ff2;
+}
+.nav-kanan {
+    display: flex;
+    flex-direction: column;
+}
+.nav-kanan a {
+    text-decoration: none;
+    color: white;
+    background-color: #4a6ff2;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.konten {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+h1 span {
+    color: #4a6ff2;
+}
+p {
+    color: #505050;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.card img {
+    width: 100%;
+}
+.bungkus-cardd {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.cardd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+}
+.cardd a {
+    text-decoration: none;
+    background-color: #4a6ff2;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.cardd a:hover,
+.nav-kanan a:hover {
+    background-color: #2e4bcf;
+}
+.halaman-services {
+    height: 100vh;
+    padding-top: 114px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+header {
+    text-align: center;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.pembungkus-card {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.card1 {
+    flex: 1;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.isi {
+    padding: 20px;
+}
+.simbol1,
+.simbol2,
+.simbol3,
+.simbol4 {
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+    width: 70px;
+    border-radius: 10px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.simbol1 {
+    background-color: gold;
+}
+.simbol2 {
+    background-color: lime;
+}
+.simbol3 {
+    background-color: plum;
+}
+.simbol4 {
+    background-color: red;
+}
+.halaman-kontak {
+    height: 100vh;
+    padding-top: 114px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background-color: #d6e4ff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card21 {
+    flex: 1;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card22 {
+    flex: 1;
+    padding: 30px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.bungkus-card22 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card21 img {
+    height: 100%;
+}
+.konten-biru {
+    display: flex;
+    gap: 10px;
+}
+.kiri {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    justify-content: space-between;
+}
+.kanan {
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nomor {
+    width: 50px;
+    height: 50px;
+    background-color: #4a6ff2;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.button {
+    display: flex;
+    gap: 15px;
+}
+.mulai {
+    padding: 10px;
+    background-color: #4a6ff2;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    transition: 0.5s;
+}
+.mulai:hover {
+    background-color: #2e4bcf;
+}
+.baca {
+    padding: 10px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #4a6ff2;
+    border-radius: 5px;
+    border: 1px solid #4a6ff2;
+    width: 50%;
+    text-align: center;
+    transition: 0.5s;
+}
+.baca:hover {
+    background-color: white;
+}
+.halaman-tentang {
+    height: 100vh;
+    padding-top: 114px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.card3 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+    height: 100%;
+}
+.card30 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+    height: 100%;
+}
+.pembungkus-kiri{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 366px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pembungkus-kiri a {
+    text-decoration: none;
+    color: white;
+    background-color: #4a6ff2;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    transition: 0.5s;
+}
+.pembungkus-kiri a:hover {
+    background-color: #2e4bcf;
+}
+.halaman-blog {
+    height: 100vh;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 70px;
+}
+.bungkus-con {
+    height: 100%;
+}
+.con-atas {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+.card4-atas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.card4-bawah {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card4 {
+    /* flex: 1; */
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 25%;
+}
+.nama {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nama .fas {
+    font-size: 30px;
+}
+.jeneng h3 {
+    color: #4a6ff2;
+}
+.con-bawah {
+    padding-top: 30px;
+    /* padding-right: 30px; */
+    /* padding-left: 30px; */
+    background-color: #D6E4FF;
+    height: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.started {
+    display: flex;
+    background-color: #4a6ff2;
+    width: 60%;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    align-items: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    /* transform: translate(-50%, -50%); */
+    transform: translateY(-50%);
+}
+.started a {
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #4a6ff2;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.started a:hover {
+    background-color: white;
+    color: #4a6ff2;
+}
+.blog {
+    display: flex;
+    z-index: 2;
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px;
+    flex: 1;
+}
+.card51 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.card5 {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.bungkus-card51 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.merek {
+    align-items: center;
+    gap: 10px;
+}
+.fab {
+    font-size: 25px;
+}
+.merek {
+    display: flex;
+}
+.card51, .card5 {
+    flex: 1;
+    padding: 10px;
+}
+.footer {
+    background-color: #D6E4FF;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    align-items: center;
+    border-top: 1px solid #2e4bcf;
+}
+.footer p {
+    color: #2e4bcf;
+}
+.footer a {
+    text-decoration: none;
+    color: #2e4bcf;
+}
+.footer a:hover {
+    color: #1C3AA9;
+}
