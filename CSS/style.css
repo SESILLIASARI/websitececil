@@ -10,10 +10,11 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100dvw;
 }
 .halaman-utama {
     height: 100vh;
